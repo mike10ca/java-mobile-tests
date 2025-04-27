@@ -1,0 +1,35 @@
+# Java compiled files
+*.class
+
+# Maven target directory
+/target/
+
+# Logs
+*.log
+
+# Appium specific
+node_modules/
+appium.log
+
+# VSCode settings
+.vscode/
+
+# MacOS files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# APKs
+src/apps/android/*.apk
+
+# Allure reports
+.allure
+allure-results
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+apps/android/app_latest.apk
+src/apps/android/app_latest.apk

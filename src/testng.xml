@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Mobile Automation">
+    <test name="Mobile Tests">
+        <parameter name="platformName" value="Android"/>
+        <packages>
+            <package name="tests"/>
+        </packages>
+    </test>
+</suite>
